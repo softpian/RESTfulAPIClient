@@ -8,6 +8,7 @@ import java.util.Map;
 
 public class Constant {
     public static final String BASE_URL = "http://api.openweathermap.org/data/2.5/";
+
     public static final Map<String, Integer> WEATHER_ICONS;
     static {
         Map<String, Integer> weatherIcons = new HashMap<>();

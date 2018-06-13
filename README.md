@@ -5,8 +5,12 @@ Introduction
 ------------
 This repository contains a Weather application illustrating how to use RESTful API on Android using the following open source libraries.
 
-This app calls RESTful API to [OpenWeatherMap][0] and receives current weather data formatted in Json.
-Please visit [https://openweathermap.org/](https://openweathermap.org/)
+This app calls RESTful API to [OpenWeatherMap][0] and receives current weather data formatted in Json as follows.
+('openWeatherMapApiKey' means unique API Key from OpenWeatherMap.)
+```
+http://api.openweathermap.org/data/2.5/weather?q=Auckland&APPID=openWeatherMapApiKey"
+```
+Please visit [https://openweathermap.org/](https://openweathermap.org/) for more detailed information.
 
 [0]: https://openweathermap.org/
 
@@ -18,7 +22,8 @@ In your local.properties file, put your own key given from [OpenWeatherMap][0]:
 ```
 openWeatherMapApiKey="yourOwnAPIKey"
 ```
-for example, you should write it as follows
+For example, you should write it as below. 
+(The following API Key is not real one. Never use it in your application.)
 ```
 openWeatherMapApiKey="788a5fnd5r134id6a792ff39pp68dcs3"
 ```
