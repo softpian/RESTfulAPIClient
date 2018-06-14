@@ -15,7 +15,7 @@ Please visit [https://openweathermap.org/](https://openweathermap.org/) for more
 [0]: https://openweathermap.org/
 
 
-Getting Stared
+Getting Started
 --------------
 In your local.properties file, put your own key given from [OpenWeatherMap][0]:
 
